@@ -7,3 +7,6 @@ class Tile(pygame.sprite.Sprite):
         # size: x and y. identical because square.
         self.image.fill('grey')
         self.rect = self.image.get_rect(topleft = position)
+
+    def update(self, x_shift): 
+        self.rect.x += x_shift   
