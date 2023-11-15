@@ -32,5 +32,6 @@ class Level :
         # level tiles
         self.tiles.update(self.world_shift)
         self.tiles.draw(self.display_surface)  
-        # player 
+        # player
+        self.player.update() 
         self.player.draw(self.display_surface)
