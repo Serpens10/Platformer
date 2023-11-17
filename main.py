@@ -22,7 +22,7 @@ while True :
 
     
     screen.fill('black')
-    level.run()
-    clock.tick(60)        
+    level.run()      
     pygame.display.update()
+    clock.tick(60)  
 
